@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+* {
+  font-family: cursive;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: wheat;
+}
+
+nav.header li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* top page */
+
+h2.header {
+  font-family: "Dancing Script", cursive;
+  color: gray;
+  display: flex;
+  width: 20%;
+  padding: 12px;
+  padding-left: 40px;
+  background-color: black;
+}
+
+header.header {
+  background-color: black;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.top-page {
+  background: url("./image/header.jpg") fixed;
+  background-size: cover;
+  height: 95vh;
+  padding: 25px;
+}
+
+/* menu de navigation */
+
+nav.header {
+  justify-content: space-around;
+  color: white;
+  display: flex;
+  list-style: none;
+  width: 70%;
+  margin-left: 30px;
+}
+
+/* page de bienvenue */
+
+.landing-page {
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+.big-title {
+  color: white;
+  font-size: 60px;
+  margin-top: 70px;
+}
+
+.p {
+  color: white;
+  font-size: 40px;
+}
+
+.scroll-down {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 35px;
+}
+
+/* best sells */
+
+.section-title {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+  position: relative;
+  margin: 40px 50px;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 7px;
+  bottom: 0;
+}
+
+.bests-items {
+  width: 80%;
+  
+  
+}
+
+.best-car {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+   /* border: 1px solid #000; */
+  /* border-radius: 20px; */
+}
+
+.car-box {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  flex: 1;
+}
+.car-box:hover {
+  transform: scale(1.2);
+  z-index: 1;
+
+}
+
+.car1 {
+  background-image: url(./image/gmc.jpg);
+}
+
+.car2 {
+  background-image: url(./image/m4.jpg);
+}
+
+.car3 {
+  background-image: url(./image/f12.jpg);
+}
+
+.car-details {
+  background-color: #ffffffdf;
+  position: absolute;
+  bottom: 0;
+  width: calc(80% + 55.5px);
+  /* padding: 5px 20px; */
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.car-name {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.car-description {
+  color: red;
+  font-weight: 800;
+}
+
+/* Vintage  */
+
+.car111 {
+  background-image: url(./image/gt40.jpg);
+}
+
+.car222 {
+  background-image: url(./image/f40.jpg);
+}
+
+.car333 {
+  background-image: url(./image/carrera.jpg);
+}
+
+/* Mercedes */
+
+.car11 {
+  background-image: url(./image/a45.jpg);
+}
+
+.car22 {
+  background-image: url(./image/c63s.jpg);
+}
+
+.car33 {
+  background-image: url(./image/g63.jpg);
+}
+
+
+footer {
+  margin-top: 6em;
+  height: 20em;
+  width: 100%;
+  background-color: #000000 ;
+  
+}
+
+footer div {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2em;
+  
+}
+footer h3 {
+  margin-top: 3em;
+}
+
+footer ul {
+color: #ffffff;
+display: flex;
+margin-top: 6em;
+}
